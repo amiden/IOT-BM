@@ -61,3 +61,5 @@ typings/
 .next
 # sql
 *.sqlite3
+# pyc
+*.pyc
