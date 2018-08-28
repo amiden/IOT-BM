@@ -65,3 +65,10 @@ typings/
 
 # next.js build output
 .next
+# .idea
+.idea/
+# mac .DS_Store
+.DS_Store
+# migrations
+migrations/
+independentprocess/

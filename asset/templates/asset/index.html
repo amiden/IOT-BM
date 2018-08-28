@@ -1,0 +1,11 @@
+{% load static %}
+
+{% if dev_sets %}
+    <ul>
+    {% for dev in dev_sets %}
+        <li><a href="{% url 'asset:dev_info' dev.uuid%}">{{ dev.node_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>没有任何资产在线.</p>
+{% endif %}
